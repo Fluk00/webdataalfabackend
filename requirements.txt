@@ -25,4 +25,7 @@ typing_extensions==4.15.0
 urllib3==2.5.0
 uvicorn==0.37.0
 mangum==0.17.0
+fastapi==0.117.1
+starlette==0.48.0
+
 
