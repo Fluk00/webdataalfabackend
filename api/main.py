@@ -161,3 +161,4 @@ def get_data2():
         raise HTTPException(status_code=500, detail=f"Gagal membaca sheet kedua: {e}")
 
 
+handler = Mangum(app)
