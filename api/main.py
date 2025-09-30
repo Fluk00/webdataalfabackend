@@ -7,5 +7,4 @@ app = FastAPI()
 def root():
     return {"message": "Hello from FastAPI on Vercel 🚀"}
 
-# Penting: ini handler yang dipanggil Vercel
-handler = Mangum(app)
+handler = Mangum(app)  # <--- wajib, agar Vercel bisa invoke
